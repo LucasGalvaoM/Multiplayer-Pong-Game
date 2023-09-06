@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+</head>
+<body>
+    <header>
+        <h1>Pong Multiplayer</h1>
+    </header>
+    <main>
+        <section>
+            <form action="/create" method="POST">
+                <button type="submit">Create Room</button>
+            </form>
+            <form action="/join" method="POST">
+                <input type="text" name="roomId" required>
+                <button type="submit">Join Room</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
